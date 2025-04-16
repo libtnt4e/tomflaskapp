@@ -3,12 +3,11 @@ on: push
 
 jobs:
     first_job:
-        runs_on: ubuntu-latest  
+        runs-on: ubuntu-latest
         steps:
-            - name: welcome message 
-              run: echo "my first git actions job"
-            - name: list files
-              run: ls 
-            - name: read file
-              run: cat README.md 
-              
+        - name: welcome message
+          run: echo "my first git actions job"
+        - name: list files
+          run: ls
+        - name: read file
+          run: cat README.md
