@@ -10,7 +10,7 @@ jobs:
     - name: List Repo Files
       run: ls -latr
     - name: Checking Dir
-      run: ls -lart
+      run: cd .github
     # - name: Executing Shell Script 
     #   run: |
     #     chmod +x workflows/ascii-script.sh
