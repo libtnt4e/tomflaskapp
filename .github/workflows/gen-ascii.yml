@@ -14,4 +14,9 @@ jobs:
         chmod +x ascii-script.sh
         ./ascii-script.sh 
 
-    
+  test_job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sleep for 10sec
+        run: sleep 10
+        
