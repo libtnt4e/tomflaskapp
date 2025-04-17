@@ -12,8 +12,8 @@ jobs:
     - name: Checking Dir
       run: cd .github/workflows
     - name: Executing Shell Script 
-      run: |
-        chmod +x ascii-script.sh
-        ./ascii-script.sh 
+      run: ls -lart
+        # chmod +x ascii-script.sh
+        # ./ascii-script.sh 
 
     
