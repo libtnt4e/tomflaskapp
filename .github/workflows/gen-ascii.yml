@@ -9,9 +9,11 @@ jobs:
       uses: actions/checkout@v4
     - name: List Repo Files
       run: ls -latr
+    - name: Checking Dir
+      run: pwd
     - name: Executing Shell Script 
       run: |
-        chmod +x ../ascii-script.sh
+        chmod +x ascii-script.sh
         ./ascii-script.sh 
 
     
