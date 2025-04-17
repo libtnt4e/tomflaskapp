@@ -8,9 +8,6 @@ jobs:
     - name: Checkout Repo 
       uses: actions/checkout@v4
 
-    - name: Checking Dir
-      run: 
-    
     - name: Executing Shell Script 
       run: |
         cd .github/workflows
