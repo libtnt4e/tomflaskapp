@@ -7,13 +7,10 @@ jobs:
     steps:
     - name: Checkout Repo 
       uses: actions/checkout@v4
-    - name: List Repo Files
-      run: ls -latr
-    - name: Checking Dir
-      run: cd .github/workflows
+      
     - name: Executing Shell Script 
-      run: ls -lart
-        # chmod +x ascii-script.sh
-        # ./ascii-script.sh 
+      run: |
+        chmod +x .github/workflows/ascii-script.sh
+        ./github/workflows/ascii-script.sh 
 
     
