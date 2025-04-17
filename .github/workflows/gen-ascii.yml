@@ -13,7 +13,7 @@ jobs:
       run: pwd
     - name: Executing Shell Script 
       run: |
-        chmod +x ascii-script.sh
+        chmod +x workflows/ascii-script.sh
         ./ascii-script.sh 
 
     
